@@ -1,0 +1,33 @@
+.cardGrid {
+  display: grid;
+  width: 65%;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 3.2rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 4rem auto;
+  transition: all linear 2s;
+}
+.cardGrid :hover {
+  transform: scale(1.02);
+}
+
+.heading {
+  text-align: center;
+  margin: 0 auto 1.2rem auto;
+  color: #0c0969;
+}
+.text {
+  font-family: "Montserrat", sans-serif;
+  margin: 1.2rem auto;
+  text-align: center;
+  color: #0c0969;
+  padding: 0 1rem;
+  width: 75%;
+}
+
+img {
+  width: 100%;
+  height: clamp(8rem, 10vw, 15rem);
+  object-fit: contain;
+  margin: 1.2rem auto;
+}

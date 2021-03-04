@@ -1,0 +1,25 @@
+.mainBody {
+  text-align: left;
+  font-family: "Archivo Black", sans-serif;
+  margin: 5rem 0 0 6rem;
+}
+.textName {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  color: #9795d4;
+  width: 50%;
+}
+.textDesc {
+  font-size: 1.5rem;
+  color: #0c0969;
+  width: 50%;
+  text-align: left;
+  margin-top: 1.5rem;
+}
+.textWrap {
+  font-size: 3.5rem;
+  background: linear-gradient(#0800ec, #0e0c3d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 4rem 0;
+}

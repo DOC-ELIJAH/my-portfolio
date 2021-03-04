@@ -1,13 +1,63 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
+body {
+  background: white;
+  /* color: #0c0969; */
+}
+.btn {
+  background: #9795d4;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: 4px solid #9795d4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  box-shadow: 4px 2px 4px 1px #9795d4;
+}
+.btn:hover {
+  transform: scale(1.08);
+}
+.card {
+  background: white;
+  border: 4px solid white;
+  box-shadow: 3px 0px 4px 2px #deddff;
+}
+.item {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  align-items: center;
+  border-radius: 4px;
+}
+.item button,
+.item a {
+  background: transparent;
+  border-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+.item {
+  padding: 1rem 2rem;
+}
+.item h4 {
+  margin-bottom: 0;
+}
+.item p {
+  margin-bottom: 0;
+}
+/* a {
+  text-decoration: none;
+  color: #0c0969;
+  cursor: pointer;
+} */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* address {
+  font-style: normal;
+} */
+/* font-family: 'Archivo Black', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
