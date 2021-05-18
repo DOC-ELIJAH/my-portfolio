@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@500&display=swap");
+.intro-container {
+  display: block;
+  text-align: cente;
+  /* place-items: center;
+  /* width: 90%;*/
+  /* margin: 5rem auto; */
+  /* grid-template-columns: 1fr 1fr;  */
+}
+.h2Intro {
+  text-transform: capitalize;
+  font-size: clamp(18px, 3vw, 40px);
+  margin: 2.3rem;
+  padding: 3px;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  animation: color-change 3s ease-in infinite;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #d6885b;
+}
+
+.intro-box {
+  text-align: center;
+  color: #9c9a9a;
+  font-family: "Montserrat", sans-serif;
+  width: 85%;
+  margin: auto;
+  padding: 45px;
+  text-transform: uppercase;
+  border: 2px solid #222020;
+  box-shadow: 2px 2px 5px 1px #d6885b;
+}
+.intro-box h2 {
+  text-align: center;
+  font-size: clamp(12px, 3vw, 24px);
+}
+.ctaButton {
+  padding: 3px 8px;
+  background: #d6885b;
+  color: #ebe6e6;
+  border: 2px solid #d6885b;
+  margin: 18px 0 0 0;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(9px, 3vw, 18px);
+  border-radius: 3.7px;
+  cursor: pointer;
+}
+.ctaButton:hover {
+  color: black;
+}
+
+.my-name {
+  font-size: clamp(22px, 8vw, 43px);
+  font-family: "Archivo Black", sans-serif;
+}
+.intro {
+  text-transform: capitalize;
+  width: 100%;
+  margin: auto;
+  padding: 19px;
+  line-height: 1.5rem;
+  font-size: clamp(8px, 5vw, 14px);
+}
+.think {
+  font-size: clamp(11px, 2vw, 32px);
+  font-weight: lighter;
+  font-family: "Archivo Black", sans-serif;
+  /* color: #d6885b; */
+  color: #9c9a9a;
+}
+@media (min-width: 600px) {
+  .intro-container {
+    display: grid;
+    place-items: center;
+    width: 90%;
+    margin: 5rem auto;
+    grid-template-columns: 1fr 1fr;
+    /* height: 45rem; */
+  }
+  .intro-image {
+    width: 65%;
+    /* height: 50rem; */
+    margin: auto;
+  }
+  .ctaButton {
+    padding: 9px 16px;
+    background: #d6885b;
+    color: #ebe6e6;
+    border: 2px solid #d6885b;
+    margin: 18px 0 0 0;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    border-radius: 3.7px;
+    cursor: pointer;
+  }
+  .ctaButton:hover {
+    color: black;
+  }
+}
+.intro-image img {
+  width: 100%;
+  margin: 3rem auto;
+}
+.intro-image {
+  width: 75%;
+  margin: auto;
+}
+
+@keyframes color-change {
+  0% {
+    -webkit-text-stroke-color: #ff08ca;
+  }
+  50% {
+    -webkit-text-stroke-color: #8b8b8b;
+  }
+  100% {
+    -webkit-text-stroke-color: #f56817;
+  }
+}

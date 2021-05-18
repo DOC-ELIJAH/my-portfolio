@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@500&display=swap");
+.gradient-text {
+  background-color: #f3ec78;
+  background-image: linear-gradient(#9aff88, #d6885b, #b35023);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: clamp(14px, 3vw, 28px);
+  text-transform: capitalize;
+  font-family: "Archivo Black", sans-serif;
+  /* text-shadow: 2px 1px 1px #5a5959; */
+  letter-spacing: 0.7px;
+  padding: 3px;
+}
+.preloader {
+  text-transform: capitalize;
+  font-size: clamp(40px, 5vw, 80px);
+  margin: 2.3rem;
+  padding: 3px;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #d6885b;
+  height: 100vh;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: flickerAnimation 2s infinite;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-nav-items {
+  /* color: #9c9a9a;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  display: flex; */
+  display: none;
+}
+@media (min-width: 600px) {
+  .main-nav-items {
+    color: #9c9a9a;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    display: flex;
+  }
+}
+.main-nav-item {
+  padding: 4px;
+}
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
