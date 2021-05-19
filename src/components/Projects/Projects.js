@@ -19,7 +19,7 @@ const Projects = () => {
               <button className="card-cta">GitHub Repo</button>
               <button className="card-cta">view deployed app</button>
             </div>
-            <p> Html || CSS || js</p>
+            <p> vanilla.js</p>
           </div>
           <div className="project-card">
             <h2>Booklist App</h2>
@@ -27,7 +27,7 @@ const Projects = () => {
               <button className="card-cta">GitHub Repo</button>
               <button className="card-cta">view deployed app</button>
             </div>
-            <p> react || CSS</p>
+            <p> react.js</p>
           </div>
           <div className="project-card">
             <h2>Github users</h2>
@@ -35,7 +35,7 @@ const Projects = () => {
               <button className="card-cta">GitHub Repo</button>
               <button className="card-cta">view deployed app</button>
             </div>
-            <p> react || CSS</p>
+            <p> react.js</p>
           </div>
           <div className="project-card">
             <h2>Image search</h2>
@@ -43,7 +43,7 @@ const Projects = () => {
               <button className="card-cta">GitHub Repo</button>
               <button className="card-cta">view deployed app</button>
             </div>
-            <p> react || CSS</p>
+            <p> react.js</p>
           </div>
         </div>
       </section>

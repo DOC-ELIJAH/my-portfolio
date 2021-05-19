@@ -12,7 +12,7 @@ const Intro = () => {
             <h2>Hi there, I'm Hope</h2>
             <p className="intro">
               {" "}
-              I am a web developer. I have passion for creating delightful,
+              I am a frontend engineer. I have passion for creating delightful,
               human-centered digital experiences.{" "}
             </p>
             <p className="think">think.make.solve.learn</p>
