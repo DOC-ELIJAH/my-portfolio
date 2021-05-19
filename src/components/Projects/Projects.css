@@ -61,20 +61,26 @@
   color: #9c9a9a;
   text-transform: capitalize;
   font-size: clamp(12px, 3vw, 24px);
-  display: grid;
+  display: flex;
   width: 85%;
   margin: auto;
-  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
 }
 
 .web-works {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border: 2px solid#3f3d3d;
-  width: 65%;
+  width: 25%;
   padding: 8px;
   text-align: center;
+  cursor: pointer;
 }
 .web-works:hover {
-  transform: translate(3);
+  border-bottom: 3px solid #d6885b;
+  /* color: #d6885b; */
 }
 .intro-web-works {
   color: #3f3d3d;
@@ -83,6 +89,7 @@
   width: 85%;
   margin: 2rem auto;
 }
+
 @media (min-width: 1250px) {
   .project-card-container {
     display: grid;

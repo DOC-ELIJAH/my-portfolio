@@ -2,6 +2,18 @@
   color: #9c9a9a;
   width: 84%;
   margin: auto;
-  text-transform: capitalize;
   margin-top: 2rem;
+}
+.contact-desc {
+  text-transform: capitalize;
+  padding: 14px 0;
+  color: #3f3f3d;
+}
+.contact-deets {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-deets h2 {
+  text-transform: capitalize;
 }
